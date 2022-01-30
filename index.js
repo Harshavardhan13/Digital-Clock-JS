@@ -34,7 +34,7 @@ function setTime() {
     
     if(Number(i) == hourr){
 
-        document.getElementById('img-container').src="assets./wakeup_image.png";
+        document.getElementById('img-container').src="./assets./wakeup_image.png";
         document.getElementById('text-container').innerHTML="HEY WAKE UP!!";
         document.getElementById('block').innerHTML='Good morning '+hourr+" : "+mnt+" : "+sec;
               
@@ -42,7 +42,7 @@ function setTime() {
 
      if(Number(j) == hourr){
 
-        document.getElementById('img-container').src="assets./lunch_image.png";
+        document.getElementById('img-container').src="./assets./lunch_image.png";
         document.getElementById('text-container').innerHTML="Lets have some lunch!!";
         document.getElementById('block').innerHTML='Good Afternoon '+hourr+" : "+mnt+" : "+sec ;
            
@@ -50,7 +50,7 @@ function setTime() {
     }
 
      if(Number(k) == hourr) {
-        document.getElementById('img-container').src="assets./goodnight_image.png";
+        document.getElementById('img-container').src="./assets./goodnight_image.png";
         document.getElementById('text-container').innerHTML="Have a Good Night!!";
         document.getElementById('block').innerHTML='Good night '+hourr+" : "+mnt+" : "+sec ;
         
